@@ -1,0 +1,10 @@
+<?php
+function phpencode($code) {
+$encode = base64_encode(gzdeflate($code)); // 開始編碼
+return $encode;
+}
+function phpdecode($code) {
+$decode = base64_decode($code);
+$decode = @gzinflate($decode);
+return $decode;
+}

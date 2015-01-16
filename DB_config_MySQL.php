@@ -1,0 +1,1 @@
+<?php    global $_DBMySQL;	    $_DBMySQL['host'] = "127.0.0.1";    $_DBMySQL['username'] = "root";    $_DBMySQL['password'] = "79121256";    $_DBMySQL['dbname'] = "windclubdb";		//此檔案重要，務必記得不可被人下載！！?>

@@ -1,0 +1,155 @@
+/*
+Theme Name:NCNU Wind Band
+Theme URI:http://studentweb.ncnu.edu.tw/99321024
+Description:管樂社樣板
+Version:1.0
+Author:HaoMing Hung
+Author URI:http://studentweb.ncnu.edu.tw/99321024
+Tags:自行設計
+*/
+/*
+Margin 邊界
+Border 邊框
+Padding 留白
+Background 背景
+font-family 字型
+*/
+* { 
+margin: 0px; 
+padding: 0px; 
+} 
+
+table {
+margin-left:auto;
+margin-right:auto;
+}
+/*header用樣式*/
+#Topbar{font-family: Arial, sans-serif;width:1024px;margin:0px auto;}
+#GButton{margin:0px auto 0 auto;width:1024px}
+.headerButton{font-family: Arial, sans-serif;margin:0px auto;padding:0;}
+
+
+/*在此設定body,img等等的格式*/
+/*若前綴為#表示只有該ID會被修正，若前綴為.則表示所有的class皆會被修正*/
+
+/*申請頁面用樣式*/
+#ApplyTable{margin:0px auto;}
+#ApplyTable p{font-size:20px;margin:10px 0px 5px auto}
+
+.content{
+margin-top:10px;
+margin-bottom:20px; 
+}
+.content h1{
+font-size:16px;
+margin:20px 0px 5px auto;
+line-height:24px; 
+text-align:left;
+text-indent:32px; 
+}
+.content p{
+font-size:16px;
+margin:20px 10px 10px auto;
+line-height:24px; 
+text-align:left;
+text-indent:32px; 
+}
+
+.content li{
+font-size:16px;
+margin:10px 10px 5px auto;
+line-height:24px; 
+text-align:left;
+text-indent:32px; 
+}
+
+.Announcement{
+margin-top:10px;
+margin-bottom:20px; 
+}
+.Announcement p{
+margin:0;
+}
+
+
+.header { 
+height: 600px; 
+width: 1024px; 
+margin:0px auto 0px auto;
+z-index:0;
+} 
+
+.content2 { 
+height:auto; 
+width: 1024px; 
+line-height: 1.5em;
+margin:0px auto 0px auto; 
+z-index:0;
+} 
+.content2 p { 
+text-indent: 2em; 
+} 
+.content2 h5 { 
+font-size: 16px; 
+margin: 10px; 
+} 
+.footer { 
+height: 300px; 
+width: 1024px; 
+line-height: 2em; 
+text-align: center; 
+margin:0px auto 0px auto;
+z-index:0;
+} 
+
+#ClubTeacher {
+	position:relative;
+	width:143px;
+	height:43px;
+	z-index:1;
+	left: 77%;
+	top: -68%;
+}
+#ClubAnnouncement {
+	position:relative;
+	width:146px;
+	height:46px;
+	z-index:1;
+	left: 77%;
+	top: -64%;
+}
+#ClubActivity {
+	position:relative;
+	width:152px;
+	height:54px;
+	z-index:2;
+	left: 77%;
+	top: -60%;
+}
+#ElementIntroduction {
+	position:relative;
+	width:140px;
+	height:46px;
+	z-index:3;
+	left: 78%;
+	top: -58%;
+}
+#Login {
+	position:relative;
+	width:149px;
+	height:43px;
+	z-index:4;
+	left: 78%;
+	top: -55%;
+}
+.list{
+	position:relative;
+	width:116px;
+	height:37px;
+	z-index:5;
+	left: 64%;
+	top: -115%;
+}
+
+
+
